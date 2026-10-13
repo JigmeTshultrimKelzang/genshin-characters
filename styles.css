@@ -1,0 +1,57 @@
+* {
+    background-color:dimgray;
+}
+
+.flex-container {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card,
+.card-label {
+    background-color:gainsboro;
+}
+
+.card {
+    display:flex;  
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 500px;
+    outline: solid 5px black;
+    border-radius: 15px;
+    flex: 1;
+    transition: box-shadow 0.1s ease;
+}
+
+.card:hover {
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.484);
+}
+
+.card-label {
+    align-self: center;
+    font-size: clamp(16px, 24px, 32px);
+    font-weight: bold;
+}
+
+.img-wrapper {
+    flex: 1, 1, auto;
+    min-width: 0px;
+    outline: 5px solid black;
+    border-radius: 10px;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
