@@ -10,9 +10,12 @@
     gap: 50px;
 }
 
-.card,
-.card-label {
-    background-color:gainsboro;
+.hydro {
+    background-color:cornflowerblue;
+}
+
+.geo {
+    background-color:peru;
 }
 
 .card {
