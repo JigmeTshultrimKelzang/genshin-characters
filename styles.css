@@ -30,7 +30,7 @@
 }
 
 .card:hover {
-    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.484);
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.669);
 }
 
 .card-label {
